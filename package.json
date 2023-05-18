@@ -1,0 +1,34 @@
+{
+  "name": "@mogi/express-tester",
+  "version": "0.0.1",
+  "description": "This is a collection of some classes for backend development using nodejs.",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karan-singare/express-utilities.git"
+  },
+  "keywords": [
+    "Express",
+    "Utilities",
+    "NodeJS"
+  ],
+  "author": "karansingare@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karan-singare/express-utilities/issues"
+  },
+  "homepage": "https://github.com/karan-singare/express-utilities#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mongoose": "^6.4.6",
+    "nyc": "^15.1.0",
+    "supertest": "^6.3.3"
+  }
+}
