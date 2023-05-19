@@ -31,5 +31,8 @@
     "nyc": "^15.1.0",
     "supertest": "^6.3.3"
   },
-  "private": false
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
 }
