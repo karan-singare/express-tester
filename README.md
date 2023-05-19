@@ -1,2 +1,2 @@
-# ks-express-utilities
-This is a collection of some classes for backend development using nodejs
+# express-utilities
+This is a class containing some methods useful for testing and express application using mocha, chai, superset and nyc

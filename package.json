@@ -1,7 +1,7 @@
 {
   "name": "@mogi/express-tester",
   "version": "0.0.1",
-  "description": "This is a collection of some classes for backend development using nodejs.",
+  "description": "This is a class containing some methods useful for testing and express application using mocha, chai, superset and nyc",
   "main": "dist/index.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karan-singare/express-utilities.git"
+    "url": "git+https://github.com/karan-singare/express-tester.git"
   },
   "keywords": [
     "Express",
@@ -21,9 +21,9 @@
   "author": "karansingare@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karan-singare/express-utilities/issues"
+    "url": "https://github.com/karan-singare/express-tester/issues"
   },
-  "homepage": "https://github.com/karan-singare/express-utilities#readme",
+  "homepage": "https://github.com/karan-singare/express-tester#readme",
   "dependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
