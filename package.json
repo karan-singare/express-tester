@@ -2,11 +2,16 @@
   "name": "@mogi/express-tester",
   "version": "0.0.1",
   "description": "This is a class containing some methods useful for testing and express application using mocha, chai, superset and nyc",
-  "main": "dist/index.js",
-  "directories": {
-    "test": "test"
+  "main": "dist/es5/index.js",
+  "module": "dist/es6/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/es6/index.js",
+      "require": "./dist/es5/index.js"
+    }
   },
   "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
