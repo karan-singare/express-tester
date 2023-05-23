@@ -53,3 +53,4 @@ export declare class UnitTester {
      */
     static deleteResource(_id: string, model: any): Promise<any>;
 }
+//# sourceMappingURL=unit-tester.lib.d.ts.map
