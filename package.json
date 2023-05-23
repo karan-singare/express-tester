@@ -41,7 +41,6 @@
   "homepage": "https://github.com/karan-singare/express-tester#readme",
   "dependencies": {
     "chai": "^4.3.7",
-    "chai-http": "^4.3.0",
     "mocha": "^10.2.0",
     "mongoose": "^6.4.6",
     "nyc": "^15.1.0",
